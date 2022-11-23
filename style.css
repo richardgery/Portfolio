@@ -199,3 +199,101 @@ img {
   object-fit: cover;
   height: calc(100% - 6.8rem);
 }
+
+.project-title {
+  padding: 2rem 0.5rem;
+  font-size: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  padding: 1rem 2rem;
+}
+
+.btn-show {
+  background: var(--color-gray);
+  font-size: 2rem;
+  transition: background 0.3s ease-out;
+  -webkit-transition: background 0.3s ease-out;
+  -moz-transition: background 0.3s ease-out;
+  -ms-transition: background 0.3s ease-out;
+  -o-transition: background 0.3s ease-out;
+}
+
+.btn-show:hover {
+  background: var(--color-red);
+}
+
+.btn-show:hover > i {
+  transform: translateX(2px);
+  -webkit-transform: translateX(2px);
+  -moz-transform: translateX(2px);
+  -ms-transform: translateX(2px);
+  -o-transform: translateX(2px);
+}
+
+.btn-show > i {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  margin-left: 9px;
+  transition: transform 0.3s ease-out;
+  -webkit-transition: transform 0.3s ease-out;
+  -moz-transition: transform 0.3s ease-out;
+  -ms-transition: transform 0.3s ease-out;
+  -o-transition: transform 0.3s ease-out;
+}
+
+/* contact section */
+
+.contact-sections {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: var(--color-gray);
+  padding: 0 2rem;
+}
+
+.contact-sections-header > h2 {
+  font-size: 6rem;
+}
+
+.contact-sections-header > p {
+  font-style: italic;
+}
+
+@media (max-width: 28.7em) {
+  .contact-sections-header > h2 {
+    font-size: 4rem;
+  }
+}
+
+.contact-link {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 980px;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.contact-detail {
+  transition: transform 0.3s ease-out;
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+}
+
+.contact-detail:hover {
+  transform: translateY(8px);
+}
