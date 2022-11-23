@@ -133,10 +133,10 @@ img {
 }
 
 .welcome > p {
-  color: var(--color-red);
-  font-style: italic;
-  font-weight: 200;
   font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: var(--color-red);
 }
 
 /* project section */
